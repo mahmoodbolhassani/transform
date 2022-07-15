@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            width: 200px;
+            height: 300px;
+            margin: 100px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            background-image: linear-gradient(25deg, rgb(72, 72, 223), rgb(40, 40, 146));
+            transform: rotate3d(-100, -100, -100, -360deg);
+            transition: 2s;
+        }
+
+        .box:hover {
+            transform: rotate3d(-24, 19, -17, 0deg)
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h3>mahmood</h3>
+    </div>
+</body>
+
+</html>
